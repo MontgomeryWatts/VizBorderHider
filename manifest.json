@@ -1,0 +1,26 @@
+{
+
+  "manifest_version": 2,
+  "name": "VizReaderHider",
+  "version": "1.0",
+
+  "description": "Changes the color of the VIZ Media Reader's borders to be less intrusive",
+
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  },
+
+  "permissions": [
+    "activeTab"
+  ],
+
+  "background": {
+    "scripts": ["hider.js"]
+  },
+
+  "browser_action": {
+    "default_icon": "icons/48.png",
+    "default_title": "VIZ Reader Border"
+  }
+}
